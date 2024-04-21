@@ -1,0 +1,41 @@
+/* Custom CSS for Navbar */
+.navbar {
+  background-color: #ffffff; /* Light background color */
+}
+
+.navbar-brand {
+  color: #333333; /* Brand text color */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Futuristic font */
+}
+
+.navbar-brand:hover {
+  color: #555555; /* Brand text color on hover */
+}
+
+.navbar-nav .nav-link {
+  color: #333333; /* Navbar link text color */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Futuristic font */
+  font-weight: 400; /* Normal */
+}
+
+.navbar-nav .nav-link:hover {
+  color: #555555; /* Navbar link text color on hover */
+}
+
+.navbar-toggler {
+  border-color: #333333; /* Navbar toggler border color */
+}
+
+/* Container Styles */
+.container {
+  margin-top: 20px; /* Space between navbar and content */
+}
+
+/* Footer Styles (if needed) */
+.footer {
+  background-color: #f8f9fa; /* Footer background color */
+  padding: 20px 0; /* Padding for footer content */
+  text-align: center; /* Align footer content to center */
+  color: #333333; /* Footer text color */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Futuristic font */
+}
