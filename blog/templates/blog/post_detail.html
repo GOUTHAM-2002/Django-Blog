@@ -35,7 +35,7 @@
                 <div class="post-block">
                     <img class="rounded-circle article-img" src="{{ object.author.profile.image.url }}" style="width: 100px; height: 100px; border-radius: 50%; border: 3px solid #f0f0f0; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
                     <h2>{{ object.title }}</h2>
-                    <p class="author">{{ object.author }}</p>
+                    <a href="{% url 'user-posts' object.author.username %}" class="author">{{ object.author }}</a>
                     <p class="date">Posted on {{ object.date_posted }}</p>
                     {% if object.author == user %}
                     <a class="btn btn-secondary btn-sm mt-1 mb-1" href="{% url 'post-update' object.id %}">Update Post</a>
