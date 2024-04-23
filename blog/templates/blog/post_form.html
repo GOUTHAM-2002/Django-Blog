@@ -73,11 +73,11 @@
   <form method="POST">
     {% csrf_token %}
     <fieldset class="form-group">
-      <legend>Create a New Post</legend>
+      <legend>Post Details</legend>
       {{ form|crispy }}
     </fieldset>
     <div class="form-group">
-      <button class="btn btn-primary btn-block" type="submit">Create Post</button>
+      <button class="btn btn-primary btn-block" type="submit">Post</button>
     </div>
   </form>
 </div>
