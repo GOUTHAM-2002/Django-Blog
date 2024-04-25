@@ -3,5 +3,32 @@
 {% block content %}
 <br>
 <br>
-    <h1>This is the about Page!</h1>
+    <style>
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        p {
+            line-height: 1.6;
+            color: #666;
+        }
+        .highlight {
+            font-weight: bold;
+            color: #007bff;
+        }
+    </style>
+    <div class="container">
+        <h1>About Page</h1>
+        <p>Welcome to the Blogger app, developed by <span class="highlight">Goutham N</span>!</p>
+        <p>This Blogger app is a testament to my dedication and expertise in Django web development. It incorporates a range of advanced features and functionalities to provide users with a seamless and secure blogging experience.</p>
+        <p>Key features of the Blogger app include:</p>
+        <ul>
+            <li><span class="highlight">Authentication and Security:</span> Secure login and registration authentication with password reset functionality via email.</li>
+            <li><span class="highlight">User Profile Management:</span> Comprehensive CRUD operations allowing users to manage their profile details, including image upload.</li>
+            <li><span class="highlight">Post Management:</span> CRUD operations on user-generated posts with post filterization by username.</li>
+            <li><span class="highlight">Pagination:</span> Simple pagination system for smoother navigation through blog posts.</li>
+        </ul>
+        <p>Thank you for choosing the Blogger app, Happy blogging! Im always open to suggestions and improvement, If you want to reach me you can reach me via <span class="highlight">goutham3336@gmail.com</span></p>
+    </div>
 {% endblock content %}
